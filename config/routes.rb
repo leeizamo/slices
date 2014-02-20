@@ -1,6 +1,7 @@
 Slices::Application.routes.draw do
   root "pages#home"
-  get "About" => "pages#about"
+  get "about" => "pages#about" # creates about_path
+  get "howitworks" => "pages#howitworks"
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
